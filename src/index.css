@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grey-1: #141414;
+  --grey-2: #1A1A1A;
+  --grey-3: #262626;
+
+  --primary-1: #703BF7;
+  --primary-2: #A685FA;
+}
+
+
+body {
+  @apply bg-[--grey-1] text-white
+}
+
+nav, section {
+  @apply px-6
+}
+
+
+.praymary-button {
+  @apply bg-[--grey-1] rounded-[10px] px-6 py-4 border border-[--grey-3] border-solid transition-colors
+}
+
+.praymary-button:hover{
+  @apply text-[--primary-2]
+}
+
+nav a {
+  @apply transition-colors hover:text-[--primary-2] relative px-2 py-1 lg:px-4 lg:my-2
+}
+
+nav a::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 origin-right transition-transform duration-500 ease-in-out
+}
+
+nav a.active {
+  @apply text-[--primary-2]
+}
+
+nav a.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
