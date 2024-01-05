@@ -1,10 +1,11 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Navbar } from './components'
+import { Navbar, Hero } from './components'
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <Hero />
     </Router>
   )
 }

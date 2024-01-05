@@ -16,7 +16,7 @@ const Navbar = () => {
                 <NavLink to="/services">Services</NavLink>
             </div>
             <div>
-                <button className=' praymary-button'>Contact Us</button>
+                <NavLink to="/contectus"><button className=' praymary-button'>Contact Us</button></NavLink>
             </div>
         </nav>
     )
