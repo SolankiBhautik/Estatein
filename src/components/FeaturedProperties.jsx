@@ -6,13 +6,11 @@ import { useMediaQuery } from "react-responsive";
 import { db } from "../firebase-config.js"
 import { collection, getDocs, query } from "firebase/firestore";
 
-import { bildingsvg, showere, bad, leftarrow, rightarrow} from "../assets";
+import { bildingsvg, showere, bad} from "../assets";
 
 
-export default function Component() {
+export default function FeaturedProperties({activecard}) {
     const [data, setdata] = useState([])
-    const [activecard, setactivecard] = useState(0)
-
 
     const colref = collection(db, "properties")
 
@@ -30,29 +28,6 @@ export default function Component() {
     }, [])
 
 
-    const handleNextClick = async () => {
-        if (activecard === data.length - 1) {
-            setactivecard(0)
-            console.log("index : ", activecard);
-        }
-        else {
-            setactivecard(prev => prev + 1)
-            console.log("index : ", activecard);
-        }
-    }
-
-    const handleprevClick = () => {
-        if (activecard === 0) {
-            setactivecard(data.length - 1)
-            console.log("index : ", activecard);
-        }
-        else {
-            setactivecard(prev => prev === 0 ? data.length - 1 : prev - 1)
-            console.log("index : ", activecard);
-        }
-    }
-
-
     const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
     const isTablet = useMediaQuery({ query: "(min-width: 768px) and (max-width: 1024px)" });
 
@@ -65,15 +40,6 @@ export default function Component() {
     }
 
     return (
-        <div key="1" className="bg-background text-foreground p-12 ">
-            <h2 className="text-4xl font-bold mb-4 text-center sm:text-start">Featured Properties</h2>
-            <p className="mb-12 flex justify-between items-center flex-col sm:flex-row gap-4 text-center sm:text-start">
-                <span>
-                    Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes
-                    and investments available through Estatery. Click 'View Details' for more information.
-                </span>
-                <Button variant="outline">All Properties</Button>
-            </p>
             <div className=" grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
                 {
                     data.length !== 0 && (
@@ -108,15 +74,5 @@ export default function Component() {
                         )))
                 }
             </div>
-            <div className="flex justify-center items-center space-x-4 mt-8">
-                <Button variant="outline" onClick={handleprevClick}>
-                    <Icons icon={leftarrow} />
-                </Button>
-                <p> </p>
-                <Button variant="outline" onClick={handleNextClick}>
-                    <Icons icon={rightarrow} />
-                </Button>
-            </div>
-        </div>
     )
 }
