@@ -1,43 +1,32 @@
 import { Button } from "./ui/button"
 import { Badge } from "./ui/badge"
 import { useState, useEffect } from "react";
-import { useMediaQuery } from "react-responsive";
 
 import { db } from "../firebase-config.js"
-import { collection, getDocs, query } from "firebase/firestore";
+import { collection, getDocs } from "firebase/firestore";
 
 import { bildingsvg, showere, bad} from "../assets";
 
+import { Icons } from ".";
 
-export default function FeaturedProperties({activecard}) {
-    const [data, setdata] = useState([])
+
+export default function FeaturedProperties({activecard, cardcount}) {
+    const [data, setData] = useState([])
 
     const colref = collection(db, "properties")
 
     useEffect(() => {
         const getdata = async () => {
             try {
-                const doc = await getDocs(query(colref))
+                const doc = await getDocs(colref)
                 const fdata = doc.docs.map(doc => ({ ...doc.data(), id: doc.id }))
-                setdata(fdata)
+                setData(fdata)
             } catch (error) {
                 console.log(error)
             }
         }
         getdata()
     }, [])
-
-
-    const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
-    const isTablet = useMediaQuery({ query: "(min-width: 768px) and (max-width: 1024px)" });
-
-    const cardcount = isMobile ? 1 : isTablet ? 2 : 3;
-
-    const Icons = ({icon}) => {
-        return(
-            <img src={icon} alt="icon" className="h-5 w-5 pr-1" />
-        )
-    }
 
     return (
             <div className=" grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
@@ -60,7 +49,7 @@ export default function FeaturedProperties({activecard}) {
                                     <h3 className="text-2xl font-semibold mb-3">{prop.name}</h3>
                                     <p className="pb-4 text-muted-foreground">{prop.description}
                                     </p>
-                                    <div className="flex items-center gap-4 mb-4">
+                                    <div className="flex items-center gap-0 lg:gap-[2px] xl:gap-4 mb-4">
                                         <Badge variant="secondary" className=" m-0 b-1 pl-0"><Icons icon={bad}/> {prop.bedrooms} Bedrooms</Badge>
                                         <Badge variant="secondary" className=" m-0"><Icons icon={showere}/> {prop.bathrooms} Bathrooms</Badge>
                                         <Badge variant="secondary" className=" m-0"><Icons icon={bildingsvg}/> {prop.villa} Villa</Badge>

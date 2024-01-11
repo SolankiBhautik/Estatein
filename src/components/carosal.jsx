@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from "./ui/button"
 import { useState, useEffect } from "react";
 import { collection, getCountFromServer, count } from 'firebase/firestore';
+import { useMediaQuery } from "react-responsive";
 
 import { db } from '../firebase-config';
 
@@ -31,6 +32,7 @@ const carosal = ({ title, discription, buttonText, card }) => {
     }, [])
 
 
+
     const handleNextClick = async () => {
         if (activecard === documentCount - 1) {
             setactivecard(0)
@@ -49,6 +51,12 @@ const carosal = ({ title, discription, buttonText, card }) => {
         }
     }
 
+    const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
+    const isTablet = useMediaQuery({ query: "(min-width: 768px) and (max-width: 1024px)" });
+
+    const cardcount = isMobile ? 1 : isTablet ? 2 : 3;
+
+
     return (
         <div key="1" className="bg-background text-foreground p-12 ">
             <h2 className="text-4xl font-bold mb-4 text-center sm:text-start">{title}</h2>
@@ -60,7 +68,7 @@ const carosal = ({ title, discription, buttonText, card }) => {
             </p>
             
             
-            {card ({activecard})}
+            {card ({activecard, cardcount})}
             
             <div className="flex justify-center items-center space-x-4 mt-8">
                 <Button variant="outline" onClick={handleprevClick}>

@@ -6,6 +6,7 @@ import bad from './BACKGROUND_2.svg'
 import showere from './BACKGROUND_2 (1).svg'
 import leftarrow from './arrow left.svg'
 import rightarrow from './arrow right.svg'
+import stareicon from './stare.svg'
 
 export {
     logo,
@@ -16,4 +17,5 @@ export {
     showere,
     leftarrow,
     rightarrow,
+    stareicon,
 }

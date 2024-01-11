@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import { Navbar, Hero, Carosal, FeaturedProperties, Icons } from './components'
+import { Navbar, Hero, Carosal, FeaturedProperties, Tastimonial } from './components'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         title="What Our Clients Say"
         discription="Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs."
         buttonText="View All Testimonials"
-        card={Icons}
+        card={Tastimonial}
       />
     </Router>
   )
