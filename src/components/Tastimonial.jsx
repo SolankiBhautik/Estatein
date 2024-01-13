@@ -32,7 +32,7 @@ const Tastimonial = ({activecard, cardcount}) => {
         <div className=" grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
             {
                 data &&  data.slice(activecard, activecard + cardcount).map(data => (
-                    <div className="bg-gray-800 p-6 rounded-lg w-[330px] flex flex-col" key={data.id}>
+                    <div className="bg-gray-800 p-6 rounded-lg h-[330px] flex flex-col cardanimation" key={data.id}>
                         <div className="flex space-x-1 mb-4">
                             <Icons icon={stareicon} />
                             <Icons icon={stareicon} />

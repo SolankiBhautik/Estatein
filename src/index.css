@@ -58,8 +58,45 @@ nav, section {
   @apply px-6
 }
 
+@media (max-width: 768px){
+  .menubar{
+    @apply flex justify-between items-center gap-4 flex-col fixed top-0 right-0 h-fit bg-[#332b4936] rounded-bl-lg p-20 z-10
+  }
 
+  .menubar a{
+    @apply ml-0 
+  }
+
+  .menuitems{
+    @apply flex gap-4 flex-col items-center bg-transparent
+  }
+  
+}
+
+.slide{
+  @apply translate-x-[-100%]
+}
+
+.menubar{
+  @apply flex justify-between items-center gap-4  backdrop-blur-lg 
+}
 
 nav a.active {
   @apply text-[--primary]
+}
+
+nav button{
+  @apply hover:text-black
+}
+
+.icon:hover{
+  stroke: #141414;
+}
+
+
+.CTA{
+  background-image: url("./assets/Abstract Design (1).png"), url("./assets/Abstract Design (2).png"), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(65,65,65,0) 100%); 
+  background-position: left, right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
 }

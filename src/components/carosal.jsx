@@ -7,17 +7,17 @@ import { useMediaQuery } from "react-responsive";
 import { db } from '../firebase-config';
 
 import { leftarrow, rightarrow } from "../assets";
-import { FeaturedProperties, Icons } from '.';
+import { Icons } from '.';
 
 
 
-const carosal = ({ title, discription, buttonText, card }) => {
+const carosal = ({ title, discription, buttonText, card, collectionName }) => {
     const [activecard, setactivecard] = useState(0)
 
     const [documentCount, setDocumentCount] = useState(0);
 
     useEffect(() => {
-        const collectionRef = collection(db, 'properties');
+        const collectionRef = collection(db, collectionName);
 
         const getcount = async () => {
             try {
@@ -30,6 +30,8 @@ const carosal = ({ title, discription, buttonText, card }) => {
         }
         getcount()
     }, [])
+
+    
 
 
 

@@ -29,7 +29,7 @@ export default function FeaturedProperties({activecard, cardcount}) {
     }, [])
 
     return (
-            <div className=" grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
+            <div className=" grid justify-center gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
                 {
                     data.length !== 0 && (
                         data.slice(activecard, activecard + cardcount).map((prop, index) => (

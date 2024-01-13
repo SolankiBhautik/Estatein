@@ -1,26 +1,77 @@
-import React from 'react'
-import { logo } from '../assets'
-import { NavLink, useLocation } from 'react-router-dom'
-import { Button } from './ui/button'
 
-const Navbar = () => {
+import { Button } from "./ui/button"
+import { NavLink } from "react-router-dom"
+import { useState } from "react"
+
+export default function Component() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return (
-        <nav className="flex md:flex-row flex-col justify-between gap-4 mx-auto py-4 max-w-[1600px] items-center bg-background">
-            <div className=' md:block hidden'>
-                <img src={logo} alt="logo" className=' object-contain m-auto'/>
+        <nav className="bg-background py-4">
+            <div className="mx-auto flex max-w-6xl items-center justify-between px-6">
+                <div className="flex items-center space-x-2">
+                    <NavLink tp="/">
+                        <FlagIcon className="h-8 w-8 text-purple-600" />
+                        <span className="text-xl font-bold text-white">Estatein</span>
+                    </NavLink>
+                </div>
+                <div onClick={() => setIsMenuOpen(true)} className={`menubar ${isMenuOpen ?  "translate-x-[0%]" : "translate-x-[96%]"} md:!translate-x-[0%] transition-transform duration-300`}>
+                    <div className=" menuitems flex gap-2">
+                        <NavLink to="/"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Home</Button></NavLink>
+                        <NavLink to="/aboutus"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">About Us</Button></NavLink>
+                        <NavLink to="/properties"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Properties</Button></NavLink>
+                        <NavLink to="/services"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Services</Button></NavLink>
+                    </div>
+                    <NavLink to="/contactus" className={`ml-14`}><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Contact Us</Button></NavLink>
+                </div>
+                <div className="md:hidden z-20 fixed top-4 right-4 flex items-center justify-center">
+                    <Button className="bg-black text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                        <MenuIcon className="icon h-6 w-6 text-white focus:text-black" />
+                    </Button>
+                </div>
             </div>
-            <div className=' flex gap-2 items-center  relative  bg-background'>
-                <NavLink to="/"><Button variant="outline">Home</Button></NavLink>
-                <NavLink to="/aboutus"><Button variant="outline">About Us</Button></NavLink>
-                <NavLink to="/properties"><Button variant="outline">Properties</Button></NavLink>
-                <NavLink to="/services"><Button variant="outline">Services</Button></NavLink>
-            </div>
-            <div>
-                <NavLink to="/contectus"><Button >Contact Us</Button></NavLink>
-            </div>
-        </nav >
+        </nav>
     )
 }
 
-export default Navbar
+function MenuIcon(props) {
+    return (
+        <svg
+            {...props}
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        >
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+        </svg>
+    )
+}
+
+
+function FlagIcon(props) {
+    return (
+        <svg
+            {...props}
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        >
+            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+            <line x1="4" x2="4" y1="22" y2="15" />
+        </svg>
+    )
+}
