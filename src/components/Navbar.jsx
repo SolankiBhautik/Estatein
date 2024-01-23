@@ -7,10 +7,10 @@ export default function Component() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return (
-        <nav className="bg-background py-4">
-            <div className="mx-auto flex max-w-6xl items-center justify-between px-6">
+        <nav className="bg-[#1A1A1A] py-4">
+            <div className=" flex items-center justify-between ">
                 <div className="flex items-center space-x-2">
-                    <NavLink tp="/">
+                    <NavLink to="/">
                         <FlagIcon className="h-8 w-8 text-purple-600" />
                         <span className="text-xl font-bold text-white">Estatein</span>
                     </NavLink>

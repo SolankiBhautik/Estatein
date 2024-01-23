@@ -27,7 +27,7 @@ export default function Footer() {
                     </div>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                         <div className="flex flex-col space-y-2">
-                            <span className="text-white font-semibold">Home</span>
+                            <span className="text-white font-semibold text-lg">Home</span>
                             <Link className="text-gray-400" to="/">
                                 Hero Section
                             </Link>
