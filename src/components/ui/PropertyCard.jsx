@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const PropertyCard = ({prop, index}) => {
     return (
-        <div key={index} className="property-card flex flex-col  bg-secondary  rounded-lg overflow-hidden  max-w-[400px]">
+        <div key={index} className="property-card flex flex-col justify-between h-full  bg-secondary  rounded-lg overflow-hidden  max-w-[400px]">
             <img
                 alt={prop.name}
                 className="w-full h-48 object-cover"
@@ -30,9 +30,9 @@ const PropertyCard = ({prop, index}) => {
                     <Badge variant="secondary" className=" m-0"><Icons icon={showere} /> {prop.bathrooms} Bathrooms</Badge>
                     <Badge variant="secondary" className=" m-0"><Icons icon={bildingsvg} /> {prop.villa} Villa</Badge>
                 </div>
-                <div className="flex gap-4 items-center pt-4">
+                <div className="flex gap-4 items-center pt-4 mt-auto">
                     <p className="font-semibold"> <span className="text-muted-foreground"> Price</span> <br /> ${prop.price}</p>
-                    <Link to={`properties/${prop.id}`}><Button variant="default">View Details</Button></Link>
+                    <Link to={`propertiesdetail/${prop.id}`}><Button variant="default">View Details</Button></Link>
                 </div>
             </div>
         </div>

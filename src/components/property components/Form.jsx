@@ -2,6 +2,7 @@ import React from 'react'
 import Heading from '../ui/Heading'
 import { Input } from '../ui/input'
 import { Label } from '../ui/label'
+import Forminput from '../ui/Forminput'
 import Dropdown from '../ui/dropdown'
 import { Textarea } from '../ui/textarea'
 import { Checkbox } from '../ui/checkbox'
@@ -10,13 +11,6 @@ import { RadioGroup, RadioGroupItem } from "../ui/radio-group"
 
 
 const Form = () => {
-
-    const Forminput = ({ label, placeholder, type, id }) => (
-        <div className='flex gap-2 flex-col'>
-            <Label htmlFor={id} className="text-[20px]">{label}</Label>
-            <Input type={type} id={id} placeholder={placeholder} className=" text-xl p-3 h-auto" />
-        </div>
-    )
 
     const Formdropdown = ({ label, items, className }) => (
         <div className={`flex gap-2 flex-col ${className || ''}`}>

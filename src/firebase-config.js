@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, addDoc, collection } from "firebase/firestore";
+// import data from './data.json'
 
 const firebaseConfig = {
   apiKey: "AIzaSyC2zYa3dyDBG2PnG7zWop6KkjoZYs0rl9Y",
@@ -12,11 +13,13 @@ const firebaseConfig = {
 };
 
 
-
-
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
+
+// data.map(item => {
+//   addDoc(collection(db, "properties"), item)
+// })
 
 export {
     app,

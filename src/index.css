@@ -133,7 +133,9 @@ p,h1,h2,h3{
   line-height: 140%;
 }
 
-
+.box{
+  @apply border border-[#262626] rounded-lg
+}
 
 .bg-gradient{
   background: linear-gradient(45deg, #262626 -26.82%, rgba(38, 38, 38, 0.00) 40.46%);

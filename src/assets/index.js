@@ -17,7 +17,7 @@ import pepal2 from './pepal2.png'
 import pepal3 from './pepal3.png' 
 import pepal4 from './pepal4.png' 
 import locationicon from './locationicon.svg'
-
+import area from './Area.svg'
 
 export {
     logo,
@@ -39,4 +39,5 @@ export {
     pepal3,
     pepal4,
     locationicon,
+    area,
 }

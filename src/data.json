@@ -1,0 +1,1002 @@
+[
+  {
+    "additional_fees": {
+      "home_inspection": 500,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 25000,
+      "property_insurance": 1200,
+      "legal_fees": 3000
+    },
+    "size": "2,500",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Discover your own piece of paradise with the Seaside Serenity Villa. With an open floor plan, breathtaking ocean views from every room, and direct access to a pristine sandy beach, this property is the epitome of coastal living.",
+    "features": [
+      "Expansive oceanfront terrace for outdoor entertaining",
+      "Gourmet kitchen with top-of-the-line appliances",
+      "Private beach access for morning strolls and sunset views",
+      "Master suite with a spa-inspired bathroom and ocean-facing balcony",
+      "Private garage and ample storage space"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F1a1fd47ad163e62310e497b7a0f30470.png?alt=media&token=7ed8f70f-569a-41fd-b8a3-4044bd00a2c0",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F36d09396560fa7eb122adae84b3db23e.png?alt=media&token=849214a6-4c0f-4184-a549-e6717ff8c768",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fcb329f29999c8c335bec608731f34db8.png?alt=media&token=7ddf533e-f305-4af0-8e23-2270629c63c9",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fd167b08945642c9c50e6fef40a2a9b19.png?alt=media&token=e2833f53-df47-453e-832b-5563cff7e73c",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fdfa4fb9bab4390d28f8f89bbfb1ac510.png?alt=media&token=440f3f8c-ebbd-4a18-ba1d-323a1db87a06",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Feb054fbd88c44bbb3da756276d229ba2.png?alt=media&token=8dc9436d-7d15-4fa8-9a78-053d4a0d0501"
+    ],
+    "location": "Malibu, California",
+    "monthly_costs": {
+      "homeowners'_association_fee": 300,
+      "property_taxes": 1250
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 100
+    },
+    "name": "Seaside Serenity Villa",
+    "price": "1,250,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1000000,
+      "listing_price": 1250000,
+      "down_payment": 250000,
+      "additional_fees": 29700
+    },
+    "type": "villa",
+    "buildYear": "1990"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 600,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 20000,
+      "property_insurance": 1500,
+      "legal_fees": 4000
+    },
+    "size": "3,000",
+    "bathrooms": 2,
+    "bedrooms": 5,
+    "description": "Enjoy luxurious living in this elegant mansion. With spacious rooms, a beautiful garden, and state-of-the-art amenities, this property is perfect for those who appreciate the finer things in life.",
+    "features": [
+      "Grand entrance hall with a sweeping staircase",
+      "Chef's kitchen with custom cabinetry",
+      "Expansive living room with floor-to-ceiling windows",
+      "Master suite with a private balcony and spa-like bathroom",
+      "Home theater and entertainment room"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F36d09396560fa7eb122adae84b3db23e.png?alt=media&token=849214a6-4c0f-4184-a549-e6717ff8c768",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F1a1fd47ad163e62310e497b7a0f30470.png?alt=media&token=7ed8f70f-569a-41fd-b8a3-4044bd00a2c0",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fcb329f29999c8c335bec608731f34db8.png?alt=media&token=7ddf533e-f305-4af0-8e23-2270629c63c9",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fd167b08945642c9c50e6fef40a2a9b19.png?alt=media&token=e2833f53-df47-453e-832b-5563cff7e73c",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fdfa4fb9bab4390d28f8f89bbfb1ac510.png?alt=media&token=440f3f8c-ebbd-4a18-ba1d-323a1db87a06",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Feb054fbd88c44bbb3da756276d229ba2.png?alt=media&token=8dc9436d-7d15-4fa8-9a78-053d4a0d0501"
+    ],
+    "location": "Beverly Hills, California",
+    "monthly_costs": {
+      "homeowners'_association_fee": 500,
+      "property_taxes": 2000
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 200
+    },
+    "name": "Luxurious Mansion",
+    "price": "2,500,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1500000,
+      "listing_price": 2500000,
+      "down_payment": 500000,
+      "additional_fees": 35700
+    },
+    "type": "mansion",
+    "buildYear": "2005"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 450,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 18000,
+      "property_insurance": 1100,
+      "legal_fees": 3500
+    },
+    "size": "2,200",
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "description": "Experience urban living at its finest in this modern city apartment. With sleek design, panoramic city views, and proximity to all amenities, this property is perfect for those seeking the vibrant city lifestyle.",
+    "features": [
+      "Open-concept living and dining area with floor-to-ceiling windows",
+      "Modern kitchen with stainless steel appliances",
+      "Spacious bedrooms with walk-in closets",
+      "Access to rooftop terrace with city skyline views",
+      "Fitness center and concierge service"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F1a1fd47ad163e62310e497b7a0f30470.png?alt=media&token=7ed8f70f-569a-41fd-b8a3-4044bd00a2c0",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F36d09396560fa7eb122adae84b3db23e.png?alt=media&token=849214a6-4c0f-4184-a549-e6717ff8c768",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fcb329f29999c8c335bec608731f34db8.png?alt=media&token=7ddf533e-f305-4af0-8e23-2270629c63c9",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fd167b08945642c9c50e6fef40a2a9b19.png?alt=media&token=e2833f53-df47-453e-832b-5563cff7e73c",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fdfa4fb9bab4390d28f8f89bbfb1ac510.png?alt=media&token=440f3f8c-ebbd-4a18-ba1d-323a1db87a06",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Feb054fbd88c44bbb3da756276d229ba2.png?alt=media&token=8dc9436d-7d15-4fa8-9a78-053d4a0d0501"
+    ],
+    "location": "New York City, New York",
+    "monthly_costs": {
+      "homeowners'_association_fee": 250,
+      "property_taxes": 1200
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 150
+    },
+    "name": "City View Apartment",
+    "price": "850,000",
+    "total_initial_costs": {
+      "mortgage_amount": 500000,
+      "listing_price": 850000,
+      "down_payment": 150000,
+      "additional_fees": 26950
+    },
+    "type": "apartment",
+    "buildYear": "2010"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 700,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 18000,
+      "property_insurance": 1300,
+      "legal_fees": 3500
+    },
+    "size": "2,200",
+    "bathrooms": 4,
+    "bedrooms": 3,
+    "description": "Step into modern elegance with this stylish condominium. Featuring contemporary design, high-end finishes, and stunning city views, this property is perfect for urban living enthusiasts.",
+    "features": [
+      "Open-concept living and dining area",
+      "Designer kitchen with top-of-the-line appliances",
+      "Spacious master suite with walk-in closet",
+      "Private balcony with panoramic city views",
+      "Smart home technology"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F1a1fd47ad163e62310e497b7a0f30470.png?alt=media&token=7ed8f70f-569a-41fd-b8a3-4044bd00a2c0",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F36d09396560fa7eb122adae84b3db23e.png?alt=media&token=849214a6-4c0f-4184-a549-e6717ff8c768",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fcb329f29999c8c335bec608731f34db8.png?alt=media&token=7ddf533e-f305-4af0-8e23-2270629c63c9",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fd167b08945642c9c50e6fef40a2a9b19.png?alt=media&token=e2833f53-df47-453e-832b-5563cff7e73c",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fdfa4fb9bab4390d28f8f89bbfb1ac510.png?alt=media&token=440f3f8c-ebbd-4a18-ba1d-323a1db87a06",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Feb054fbd88c44bbb3da756276d229ba2.png?alt=media&token=8dc9436d-7d15-4fa8-9a78-053d4a0d0501"
+    ],
+    "location": "New York City, New York",
+    "monthly_costs": {
+      "homeowners'_association_fee": 400,
+      "property_taxes": 1500
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 150
+    },
+    "name": "Modern City Condo",
+    "price": "1,800,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1200000,
+      "listing_price": 1800000,
+      "down_payment": 400000,
+      "additional_fees": 28800
+    },
+    "type": "condo",
+    "buildYear": "2010"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 800,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 22000,
+      "property_insurance": 1600,
+      "legal_fees": 4500
+    },
+    "size": "1,800",
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "description": "Experience contemporary living in this urban apartment. Boasting sleek design, modern amenities, and proximity to city attractions, this property is ideal for those seeking a vibrant lifestyle.",
+    "features": [
+      "Open-concept living and kitchen area",
+      "Floor-to-ceiling windows with cityscape views",
+      "Master bedroom with en-suite bathroom",
+      "Fitness center and rooftop terrace",
+      "Smart home automation"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F1a1fd47ad163e62310e497b7a0f30470.png?alt=media&token=7ed8f70f-569a-41fd-b8a3-4044bd00a2c0",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2F36d09396560fa7eb122adae84b3db23e.png?alt=media&token=849214a6-4c0f-4184-a549-e6717ff8c768",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fcb329f29999c8c335bec608731f34db8.png?alt=media&token=7ddf533e-f305-4af0-8e23-2270629c63c9",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fd167b08945642c9c50e6fef40a2a9b19.png?alt=media&token=e2833f53-df47-453e-832b-5563cff7e73c",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Fdfa4fb9bab4390d28f8f89bbfb1ac510.png?alt=media&token=440f3f8c-ebbd-4a18-ba1d-323a1db87a06",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSeaside%20Serenity%20Villa%2Feb054fbd88c44bbb3da756276d229ba2.png?alt=media&token=8dc9436d-7d15-4fa8-9a78-053d4a0d0501"
+    ],
+    "location": "San Francisco, California",
+    "monthly_costs": {
+      "homeowners'_association_fee": 350,
+      "property_taxes": 1300
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 120
+    },
+    "name": "Urban Chic Apartment",
+    "price": "1,500,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1000000,
+      "listing_price": 1500000,
+      "down_payment": 300000,
+      "additional_fees": 36300
+    },
+    "type": "apartment",
+    "buildYear": "2015"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 900,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 25000,
+      "property_insurance": 1800,
+      "legal_fees": 5000
+    },
+    "size": "2,200",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Escape to tranquility in this charming countryside cottage. Surrounded by nature, with a cozy interior and picturesque views, this property offers a peaceful retreat from the hustle and bustle of city life.",
+    "features": [
+      "Rustic fireplace in the living room",
+      "Country-style kitchen with farmhouse sink",
+      "Sunroom with panoramic garden views",
+      "Master bedroom with a clawfoot tub",
+      "Wrap-around porch for outdoor relaxation"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/properties%2FCottage%2Fimage3.png?alt=media&token=87654321",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/properties%2FCottage%2Fimage5.png?alt=media&token=98765432",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/properties%2FCottage%2Fimage1.png?alt=media&token=12345678",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/properties%2FCottage%2Fimage2.png?alt=media&token=23456789",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/properties%2FCottage%2Fimage4.png?alt=media&token=34567890"
+    ],
+    "location": "Countryside, England",
+    "monthly_costs": {
+      "homeowners'_association_fee": 200,
+      "property_taxes": 800
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 150
+    },
+    "name": "Tranquil Countryside Cottage",
+    "price": "800,000",
+    "total_initial_costs": {
+      "mortgage_amount": 600000,
+      "listing_price": 800000,
+      "down_payment": 200000,
+      "additional_fees": 38800
+    },
+    "type": "cottage",
+    "buildYear": "1995"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 750,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 21000,
+      "property_insurance": 1500,
+      "legal_fees": 4000
+    },
+    "size": "1,700",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "description": "Explore modern living in this stylish urban condo. Embrace comfort, convenience, and city views, making it an excellent choice for those seeking a dynamic lifestyle.",
+    "features": [
+      "Spacious living and dining area",
+      "Large windows with skyline views",
+      "En-suite bathroom in master bedroom",
+      "Community gym and rooftop deck",
+      "Smart home technology"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSkyline%20Retreat%20Condo%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSkyline%20Retreat%20Condo%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSkyline%20Retreat%20Condo%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Los Angeles, California",
+    "monthly_costs": {
+      "homeowners'_association_fee": 300,
+      "property_taxes": 1200
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 110
+    },
+    "name": "Cityscape Condo",
+    "price": "1,200,000",
+    "total_initial_costs": {
+      "mortgage_amount": 900000,
+      "listing_price": 1200000,
+      "down_payment": 240000,
+      "additional_fees": 31500
+    },
+    "type": "condo",
+    "buildYear": "2010"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 900,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 25000,
+      "property_insurance": 1800,
+      "legal_fees": 5000
+    },
+    "size": "2,000",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Indulge in luxurious living in this spacious urban penthouse. With exquisite design, panoramic city views, and high-end amenities, this property caters to those with discerning taste.",
+    "features": [
+      "Expansive living and dining spaces",
+      "Panoramic windows with city skyline",
+      "Luxurious master suite with spa-like bathroom",
+      "Private fitness center and rooftop pool",
+      "Integrated smart home technology"
+    ],
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Penthouse%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Penthouse%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+      "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Penthouse%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "New York City, New York",
+    "monthly_costs": {
+      "homeowners'_association_fee": 400,
+      "property_taxes": 1500
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 140
+    },
+    "name": "Luxury Urban Penthouse",
+    "price": "2,500,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1800000,
+      "listing_price": 2500000,
+      "down_payment": 500000,
+      "additional_fees": 43900
+    },
+    "type": "penthouse",
+    "buildYear": "2018"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 700,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 20000,
+      "property_insurance": 1400,
+      "legal_fees": 4000
+    },
+    "size": "1,600",
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "description": "Discover the charm of contemporary living in this stylish urban loft. Featuring modern aesthetics, abundant natural light, and convenient access to city amenities, this property is perfect for those seeking a vibrant lifestyle.",
+    "features": [
+      "Open loft-style living space",
+      "Large windows with natural light",
+      "Master bedroom with attached bathroom",
+      "Community fitness center and rooftop lounge",
+      "Smart home technology integration"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Loft%20Charm%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Loft%20Charm%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Loft%20Charm%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Chicago, Illinois",
+    "monthly_costs": {
+      "homeowners'_association_fee": 300,
+      "property_taxes": 1200
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 130
+    },
+    "name": "Chic Urban Loft",
+    "price": "1,300,000",
+    "total_initial_costs": {
+      "mortgage_amount": 950000,
+      "listing_price": 1300000,
+      "down_payment": 260000,
+      "additional_fees": 33400
+    },
+    "type": "loft",
+    "buildYear": "2016"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 850,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 23000,
+      "property_insurance": 1700,
+      "legal_fees": 4800
+    },
+    "size": "1,900",
+    "bathrooms": 2,
+    "bedrooms": 4,
+    "description": "Immerse yourself in the modern elegance of this urban townhouse. With spacious interiors, high-end finishes, and a central location, this property offers a perfect blend of comfort and sophistication.",
+    "features": [
+      "Open-plan living and dining spaces",
+      "High ceilings and ample natural light",
+      "Master suite with luxury bathroom",
+      "Community clubhouse and landscaped gardens",
+      "Integrated smart home technology"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Miami, Florida",
+    "monthly_costs": {
+      "homeowners'_association_fee": 400,
+      "property_taxes": 1400
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 150
+    },
+    "name": "Elegant Urban Townhouse",
+    "price": "1,800,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1200000,
+      "listing_price": 1800000,
+      "down_payment": 360000,
+      "additional_fees": 35450
+    },
+    "type": "townhouse",
+    "buildYear": "2017"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 850,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 23000,
+      "property_insurance": 1700,
+      "legal_fees": 4800
+    },
+    "size": "1,900",
+    "bathrooms": 2,
+    "bedrooms": 4,
+    "description": "Immerse yourself in the modern elegance of this urban townhouse. With spacious interiors, high-end finishes, and a central location, this property offers a perfect blend of comfort and sophistication.",
+    "features": [
+      "Open-plan living and dining spaces",
+      "High ceilings and ample natural light",
+      "Master suite with luxury bathroom",
+      "Community clubhouse and landscaped gardens",
+      "Integrated smart home technology"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Miami, Florida",
+    "monthly_costs": {
+      "homeowners'_association_fee": 400,
+      "property_taxes": 1400
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 150
+    },
+    "name": "Elegant Urban Townhouse",
+    "price": "1,800,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1200000,
+      "listing_price": 1800000,
+      "down_payment": 360000,
+      "additional_fees": 35450
+    },
+    "type": "townhouse",
+    "buildYear": "2017"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 780,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 22000,
+      "property_insurance": 1600,
+      "legal_fees": 4700
+    },
+    "size": "1,850",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Experience the epitome of luxury in this contemporary urban residence. Offering sophisticated design, high-end amenities, and breathtaking city views, this property caters to those who seek the finest in city living.",
+    "features": [
+      "Spacious living and dining areas",
+      "Floor-to-ceiling windows with panoramic views",
+      "Master suite with spa-like bathroom",
+      "Exclusive access to a rooftop lounge",
+      "Smart home automation and security"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Residence%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Residence%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Residence%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Seattle, Washington",
+    "monthly_costs": {
+      "homeowners'_association_fee": 380,
+      "property_taxes": 1350
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 140
+    },
+    "name": "Luxury Urban Residence",
+    "price": "2,200,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1500000,
+      "listing_price": 2200000,
+      "down_payment": 440000,
+      "additional_fees": 34380
+    },
+    "type": "residence",
+    "buildYear": "2019"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 820,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 24000,
+      "property_insurance": 1800,
+      "legal_fees": 4900
+    },
+    "size": "2,100",
+    "bathrooms": 3,
+    "bedrooms": 5,
+    "description": "Step into elegance with this sophisticated urban mansion. Offering grand living spaces, opulent finishes, and exclusive amenities, this property provides the ultimate luxury living experience in the heart of the city.",
+    "features": [
+      "Expansive living and entertainment areas",
+      "Grand staircase and high ceilings",
+      "Master suite with private balcony",
+      "Private home theater and spa",
+      "State-of-the-art security system"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Mansion%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Mansion%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Mansion%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Dallas, Texas",
+    "monthly_costs": {
+      "homeowners'_association_fee": 420,
+      "property_taxes": 1600
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 170
+    },
+    "name": "Urban Mansion Estate",
+    "price": "3,000,000",
+    "total_initial_costs": {
+      "mortgage_amount": 2000000,
+      "listing_price": 3000000,
+      "down_payment": 600000,
+      "additional_fees": 39520
+    },
+    "type": "mansion",
+    "buildYear": "2022"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 750,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 21000,
+      "property_insurance": 1500,
+      "legal_fees": 4200
+    },
+    "size": "1,750",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Embrace modern luxury in this chic urban duplex. Featuring contemporary design, spacious interiors, and a central location, this property is perfect for those who desire both style and convenience.",
+    "features": [
+      "Open-concept living and dining areas",
+      "Large windows with city views",
+      "Master suite with walk-in closet",
+      "Community pool and rooftop terrace",
+      "Integrated smart home technology"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FChic%20Urban%20Duplex%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FChic%20Urban%20Duplex%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FChic%20Urban%20Duplex%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Denver, Colorado",
+    "monthly_costs": {
+      "homeowners'_association_fee": 350,
+      "property_taxes": 1300
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 120
+    },
+    "name": "Chic Urban Duplex",
+    "price": "1,600,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1100000,
+      "listing_price": 1600000,
+      "down_payment": 320000,
+      "additional_fees": 31500
+    },
+    "type": "duplex",
+    "buildYear": "2014"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 780,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 22000,
+      "property_insurance": 1600,
+      "legal_fees": 4500
+    },
+    "size": "1,850",
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "description": "Elevate your lifestyle in this contemporary urban loft. Offering a blend of modern design, urban convenience, and stunning views, this property is an ideal choice for those who appreciate style and functionality.",
+    "features": [
+      "Open loft-style living space",
+      "Floor-to-ceiling windows with city views",
+      "Master bedroom with spa-like bathroom",
+      "Rooftop lounge and fitness center",
+      "Smart home automation and security"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FContemporary%20Urban%20Loft%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FContemporary%20Urban%20Loft%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FContemporary%20Urban%20Loft%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Austin, Texas",
+    "monthly_costs": {
+      "homeowners'_association_fee": 360,
+      "property_taxes": 1400
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 130
+    },
+    "name": "Contemporary Urban Loft",
+    "price": "1,700,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1200000,
+      "listing_price": 1700000,
+      "down_payment": 340000,
+      "additional_fees": 35480
+    },
+    "type": "loft",
+    "buildYear": "2016"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 800,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 23000,
+      "property_insurance": 1700,
+      "legal_fees": 4600
+    },
+    "size": "1,950",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Immerse yourself in modern elegance in this urban townhouse. Boasting spacious interiors, high-end finishes, and a convenient location, this property is tailored for those who appreciate a sophisticated urban lifestyle.",
+    "features": [
+      "Open-plan living and dining areas",
+      "Large windows with city views",
+      "Master suite with luxury bathroom",
+      "Community fitness center and rooftop garden",
+      "Smart home automation system"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FElegant%20Townhouse%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "San Diego, California",
+    "monthly_costs": {
+      "homeowners'_association_fee": 380,
+      "property_taxes": 1500
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 160
+    },
+    "name": "Urban Elegance Townhouse",
+    "price": "1,900,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1300000,
+      "listing_price": 1900000,
+      "down_payment": 380000,
+      "additional_fees": 34700
+    },
+    "type": "townhouse",
+    "buildYear": "2017"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 820,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 24000,
+      "property_insurance": 1800,
+      "legal_fees": 4800
+    },
+    "size": "2,200",
+    "bathrooms": 4,
+    "bedrooms": 5,
+    "description": "Discover opulent living in this luxurious urban estate. Featuring grand interiors, high-end amenities, and panoramic city views, this property is designed for those who seek the epitome of elegance in city living.",
+    "features": [
+      "Grand living and entertainment spaces",
+      "Panoramic windows with city skyline",
+      "Master suite with private balcony",
+      "Private theater and spa",
+      "State-of-the-art smart home technology"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Estate%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Estate%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Estate%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Los Angeles, California",
+    "monthly_costs": {
+      "homeowners'_association_fee": 450,
+      "property_taxes": 1700
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 200
+    },
+    "name": "Luxury Urban Estate",
+    "price": "2,800,000",
+    "total_initial_costs": {
+      "mortgage_amount": 2000000,
+      "listing_price": 2800000,
+      "down_payment": 560000,
+      "additional_fees": 34820
+    },
+    "type": "estate",
+    "buildYear": "2020"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 780,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 22000,
+      "property_insurance": 1600,
+      "legal_fees": 4500
+    },
+    "size": "1,900",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Indulge in contemporary luxury in this urban penthouse. Boasting expansive living spaces, high-end finishes, and breathtaking city vistas, this property is tailored for those who appreciate the finer things in life.",
+    "features": [
+      "Spacious open-concept living areas",
+      "Floor-to-ceiling windows with city views",
+      "Master suite with private terrace",
+      "Private rooftop pool and entertainment area",
+      "Smart home automation and security"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Penthouse%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Penthouse%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FUrban%20Penthouse%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "New York City, New York",
+    "monthly_costs": {
+      "homeowners'_association_fee": 400,
+      "property_taxes": 1600
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 140
+    },
+    "name": "Urban Oasis Penthouse",
+    "price": "2,500,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1700000,
+      "listing_price": 2500000,
+      "down_payment": 500000,
+      "additional_fees": 34380
+    },
+    "type": "penthouse",
+    "buildYear": "2018"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 800,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 23000,
+      "property_insurance": 1700,
+      "legal_fees": 4800
+    },
+    "size": "2,000",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Immerse yourself in urban sophistication in this sleek city loft. Offering a perfect blend of style and functionality, this property boasts high-end finishes, spacious living areas, and panoramic views of the cityscape.",
+    "features": [
+      "Open loft-style living space",
+      "Floor-to-ceiling windows with city views",
+      "Master suite with luxury bathroom",
+      "Private rooftop terrace",
+      "Smart home automation and security"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSleek%20City%20Loft%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSleek%20City%20Loft%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSleek%20City%20Loft%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Chicago, Illinois",
+    "monthly_costs": {
+      "homeowners'_association_fee": 380,
+      "property_taxes": 1500
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 160
+    },
+    "name": "Sleek Urban Loft",
+    "price": "2,300,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1600000,
+      "listing_price": 2300000,
+      "down_payment": 460000,
+      "additional_fees": 35600
+    },
+    "type": "loft",
+    "buildYear": "2016"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 800,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 23000,
+      "property_insurance": 1700,
+      "legal_fees": 4800
+    },
+    "size": "2,000",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Immerse yourself in urban sophistication in this sleek city loft. Offering a perfect blend of style and functionality, this property boasts high-end finishes, spacious living areas, and panoramic views of the cityscape.",
+    "features": [
+      "Open loft-style living space",
+      "Floor-to-ceiling windows with city views",
+      "Master suite with luxury bathroom",
+      "Private rooftop terrace",
+      "Smart home automation and security"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSleek%20City%20Loft%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSleek%20City%20Loft%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FSleek%20City%20Loft%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Chicago, Illinois",
+    "monthly_costs": {
+      "homeowners'_association_fee": 380,
+      "property_taxes": 1500
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 160
+    },
+    "name": "Sleek Urban Loft",
+    "price": "2,300,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1600000,
+      "listing_price": 2300000,
+      "down_payment": 460000,
+      "additional_fees": 35600
+    },
+    "type": "loft",
+    "buildYear": "2016"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 780,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 21000,
+      "property_insurance": 1500,
+      "legal_fees": 4200
+    },
+    "size": "1,800",
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "description": "Experience modern urban living in this stylish apartment. With contemporary design, high-end features, and convenient city access, this property is perfect for those who value both comfort and sophistication.",
+    "features": [
+      "Spacious open-plan living and dining areas",
+      "Large windows with city views",
+      "Master suite with walk-in closet",
+      "Fitness center and rooftop terrace",
+      "Smart home automation"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FStylish%20Urban%20Apartment%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FStylish%20Urban%20Apartment%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FStylish%20Urban%20Apartment%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Miami, Florida",
+    "monthly_costs": {
+      "homeowners'_association_fee": 350,
+      "property_taxes": 1300
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 120
+    },
+    "name": "Stylish Urban Residence",
+    "price": "1,600,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1100000,
+      "listing_price": 1600000,
+      "down_payment": 320000,
+      "additional_fees": 32480
+    },
+    "type": "apartment",
+    "buildYear": "2015"
+  },
+  {
+    "additional_fees": {
+      "home_inspection": 820,
+      "mortgage_fees": "Varies",
+      "property_transfer_tax": 24000,
+      "property_insurance": 1800,
+      "legal_fees": 4900
+    },
+    "size": "2,100",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "description": "Live in luxury in this modern urban residence. Offering contemporary design, premium finishes, and a prime location, this property is tailored for those who seek a sophisticated lifestyle in the heart of the city.",
+    "features": [
+      "Open-concept living and dining areas",
+      "Floor-to-ceiling windows with city views",
+      "Master suite with private balcony",
+      "Community pool and fitness center",
+      "Smart home automation system"
+    ],
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Residence%2Fae9ef333c0e2d7287f6d29426ff57b27.png?alt=media&token=e67d12c7-8b5d-48af-a3b8-2648e8bbad8e",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Residence%2F736c22d5b501dfd29ec51b259321ef35.png?alt=media&token=b44266a1-cb23-47e5-be4b-b261151ac5d5",
+        "https://firebasestorage.googleapis.com/v0/b/estatein-fake.appspot.com/o/propertys%2FLuxury%20Urban%20Residence%2F6a81ebf64ec3e8cf572251fb7eb89902.png?alt=media&token=02dc2645-e7ff-41e7-969d-316f6748a15d"
+    ],
+    "location": "Seattle, Washington",
+    "monthly_costs": {
+      "homeowners'_association_fee": 400,
+      "property_taxes": 1500
+    },
+    "monthly_expenses": {
+      "mortgage_payment": "Varies based on terms and interest rate",
+      "property_insurance": 160
+    },
+    "name": "Modern Urban Oasis",
+    "price": "2,200,000",
+    "total_initial_costs": {
+      "mortgage_amount": 1500000,
+      "listing_price": 2200000,
+      "down_payment": 440000,
+      "additional_fees": 37220
+    },
+    "type": "residence",
+    "buildYear": "2019"
+  }  
+]
