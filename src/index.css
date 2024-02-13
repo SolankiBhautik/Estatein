@@ -81,7 +81,7 @@ section, nav{
 
 @media (max-width: 768px){
   .menubar{
-    @apply flex justify-between items-center gap-4 flex-col fixed top-0 right-0 h-fit bg-[#332b4936] rounded-bl-lg p-20 z-10
+    @apply flex justify-between items-center gap-4 flex-col fixed top-0 right-0 h-fit bg-[#201b2c36] rounded-bl-lg p-20 z-10
   }
 
   .menubar a{
