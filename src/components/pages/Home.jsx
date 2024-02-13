@@ -14,6 +14,7 @@ const Home = () => {
                 buttonText="All Properties"
                 card={FeaturedProperties}
                 collectionName="properties"
+                height="550"
             />
             <Carosal
                 title="What Our Clients Say"
@@ -21,6 +22,7 @@ const Home = () => {
                 buttonText="View All Testimonials"
                 card={Tastimonial}
                 collectionName="testimonial"
+                height="330"
             />
             <Carosal
                 title="Frequently Asked Questions"
@@ -28,6 +30,7 @@ const Home = () => {
                 buttonText="View All FAQ’s"
                 card={FAQ}
                 collectionName="FAQs"
+                height="250"
             />
             <CTA />
             <Footer />

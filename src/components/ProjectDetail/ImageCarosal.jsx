@@ -20,7 +20,7 @@ const ImageCarosal = ({ images }) => {
     }
 
     return (
-        <div className='py-2 flex flex-col gap-2 md:gap-4 lg:gap-8 rounded-lg border border-[#262626] bg-[#1A1A1A]'>
+        <div className='py-2 flex flex-col gap-2 md:gap-4 lg:gap-8 rounded-lg border border-[#262626] soft-bg'>
             <div className={`flex  gap-2 md:gap-4`}>
                 {
                     images && images.map((img, index) => (

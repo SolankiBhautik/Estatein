@@ -93,7 +93,7 @@ const Form = () => {
 
                 <div className="grid w-full gap-1.5 col-span-full">
                     <Label htmlFor="message" className="text-[20px]">Your message</Label>
-                    <Textarea placeholder="Type your message here." id="message" className="text-[20px]" />
+                    <Textarea placeholder="Type your message here." id="message" className="text-[20px] soft-bg" />
                 </div>
 
                 <div className='flex gap-2 flex-col sm:flex-row justify-between col-span-full'>

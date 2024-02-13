@@ -9,7 +9,7 @@ const Card = ({ img, name, title }) => (
             <p className='text-[24px]'>{name}</p>
             <p className='p'>{title}</p>
         </div>
-        <div className='flex justify-between p-2 bg-[#1A1A1A] rounded-[8px] items-center  border border-[#262626] mt-auto'>
+        <div className='flex justify-between p-2 soft-bg rounded-[8px] items-center  border border-[#262626] mt-auto'>
             <p>Say Hello </p>
             <img src={tweetericon} alt="icon" className='bg-[#703BF7] rounded-full p-2'/>
         </div>

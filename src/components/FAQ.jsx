@@ -23,13 +23,13 @@ const FAQ = ({ activecard, cardcount }) => {
     }, [])
 
     return (
-        <div className=' bg-card-background text-card-forground  grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {
                 data.length !== 0 && (
                     data.slice(activecard, activecard + cardcount).map((data) => (
-                        <div className=' border h-[400px] sm:h-[400px] px-6 py-10 rounded-lg' key={data.id}>
-                            <h3 className=' text-[20px]'>{data && data.question}</h3>
-                            <p className='pt-4 text-muted-foreground '>{data && data.answer}</p>
+                        <div className=' border soft-bg box px-6 py-10 ' key={data.id}>
+                            <h3 className='h3 leading-3'>{data && data.question}</h3>
+                            <p className='pt-4 p '>{data && data.answer}</p>
                         </div>
                     ))
                 )

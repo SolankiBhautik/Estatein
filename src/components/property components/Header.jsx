@@ -46,7 +46,7 @@ const filters = (data) => {
 
 const Header = () => {
     return (
-        <div className='bg-gradient'>
+        <section className='bg-gradient'>
 
             <Heading 
                 heading="Find Your Dream Property"
@@ -55,7 +55,7 @@ const Header = () => {
 
             <div className='flex flex-col items-center justify-center gap-2'>
                 <div className="bg-[#191919] flex w-full max-w-4xl items-center space-x-2 shadow-[0px_0px_0px_10px_#191919] rounded-[2px] h-auto">
-                    <Input type="email" placeholder="Search for a Property" className=" p-[16px] text-[20px] leading-[1.5] h-auto" />
+                    <Input type="email" placeholder="Search for a Property" className="z-10 hard-bg p-[16px] text-[20px] leading-[1.5] h-auto" />
                     <Button type="submit" className="  p-[16px] text-[20px] leading-[1.5] h-auto">Find Property</Button>
                 </div>
                 <div className='bg-[#191919] flex gap-2 flex-wrap w-full max-w-6xl items-center justify-center shadow-[0px_0px_0px_10px_#191919] rounded-[2px] flex-stretch'>
@@ -66,7 +66,7 @@ const Header = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

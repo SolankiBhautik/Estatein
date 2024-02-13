@@ -1,13 +1,13 @@
 
 import { Button } from "./ui/button"
 import { NavLink } from "react-router-dom"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function Component() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return (
-        <nav className="bg-[#1A1A1A] py-4">
+        <nav className="soft-bg py-4">
             <div className=" flex items-center justify-between ">
                 <div className="flex items-center space-x-2">
                     <NavLink to="/">

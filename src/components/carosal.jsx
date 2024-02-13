@@ -1,17 +1,19 @@
 import React from 'react'
-import { Button } from "./ui/button"
 import { useState, useEffect } from "react";
-import { collection, getCountFromServer, count } from 'firebase/firestore';
-import { useMediaQuery } from "react-responsive";
 
+import { collection, getCountFromServer } from 'firebase/firestore';
+import { useMediaQuery } from "react-responsive";
 import { db } from '../firebase-config';
 
+import { Button } from "./ui/button"
 import { leftarrow, rightarrow } from "../assets";
 import { Icons } from '.';
+import { NavLink } from 'react-router-dom';
+import Heading from './ui/Heading';
 
 
 
-const carosal = ({ title, discription, buttonText, card, collectionName }) => {
+const carosal = ({ title, discription, buttonText, card, collectionName, height }) => {
     const [activecard, setactivecard] = useState(0)
 
     const [documentCount, setDocumentCount] = useState(0);
@@ -60,18 +62,18 @@ const carosal = ({ title, discription, buttonText, card, collectionName }) => {
 
 
     return (
-        <div key="1" className="bg-background text-foreground p-12 ">
-            <h2 className="text-4xl font-bold mb-4 text-center sm:text-start">{title}</h2>
-            <p className="mb-12 flex justify-between items-center flex-col sm:flex-row gap-4 text-center sm:text-start">
-                <span>
-                    {discription}
-                </span>
-                <Button variant="outline">{buttonText}</Button>
-            </p>
-            
-            
-            {card ({activecard, cardcount})}
-            
+        <section >
+
+            <div className='flex items-center justify-between'>
+                <Heading
+                    heading={title}
+                    description={discription}
+                />
+                <NavLink to="properties"><Button variant="outline" >{buttonText}</Button></NavLink>
+            </div>
+            <div className={`h-[${height}px]`}>
+                {card ({activecard, cardcount})}
+            </div>
             <div className="flex justify-center items-center space-x-4 mt-8">
                 <Button variant="outline" onClick={handleprevClick}>
                     <Icons icon={leftarrow} />
@@ -81,7 +83,7 @@ const carosal = ({ title, discription, buttonText, card, collectionName }) => {
                     <Icons icon={rightarrow} />
                 </Button>
             </div>
-        </div>
+        </section>
     )
 }
 

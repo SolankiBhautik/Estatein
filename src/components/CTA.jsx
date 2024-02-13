@@ -3,7 +3,7 @@ import { Button } from "./ui/button"
 
 const CTA = () => {
   return (
-    <div className='CTA   p-12'>
+    <section className='CTA py-8'>
         <div className='flex p-1 justify-between items-center gap-4 flex-col md:flex-row  text-center md:text-left  backdrop-blur-sm bg-[#1014183b] rounded-lg'>
             <div>
                 <h3 className=' text-[48px] leading-[50px] '>Start Your Real Estate Journey Today</h3>
@@ -11,7 +11,7 @@ const CTA = () => {
             </div>
             <Button>Explore Properties</Button>
         </div>
-    </div>
+    </section>
   )
 }
 

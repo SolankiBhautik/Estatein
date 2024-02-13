@@ -14,11 +14,11 @@ const Hero = () => {
                             description="Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary. Over the years, we've expanded our reach, forged valuable partnerships, and gained the trust of countless clients."
                         />
                         <div className="grid grid-cols-2 xl:grid-cols-3 gap-4 pt-12">
-                            <div className="bg-[#1A1A1A] p-6  rounded-lg border-[#262626] border">
+                            <div className="soft-bg p-6  rounded-lg border-[#262626] border">
                                 <p className=" h1">200+</p>
                                 <p className='p'>Happy Customers</p>
                             </div>
-                            <div className="bg-[#1A1A1A] p-6  rounded-lg border-[#262626] border">
+                            <div className="soft-bg p-6  rounded-lg border-[#262626] border">
                                 <p className=" h1">10k+</p>
                                 <p className='p'>Properties For Clients</p>
                             </div>

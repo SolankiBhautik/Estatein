@@ -35,7 +35,7 @@
 
     --muted: 215 27.9% 16.9%;
     --muted-foreground: 217.9 10.6% 64.9%;
-
+    
     --accent: 215 27.9% 16.9%;
     --accent-foreground: 210 20% 98%;
 
@@ -48,7 +48,7 @@
     --radius: 0.5rem;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
@@ -58,8 +58,25 @@
   }
 }
 
-nav, section {
+.soft-bg{
+  background: #1A1A1A;
+}
+
+.hard-bg{
+  background: #141414;
+}
+
+nav {
   @apply px-8
+}
+
+section, nav{
+  @apply  pt-28 px-8 sm:px-12 md:px-16 lg:px-20 
+}
+
+.padding{
+  @apply p-4 md:p-8 lg:p-16 xl:p-20
+  
 }
 
 @media (max-width: 768px){
@@ -109,21 +126,32 @@ p,h1,h2,h3{
   font-family: 'Urbanist', sans-serif;
 }
 
+
 .h1 {
   @apply text-foreground;
 
   font-size: clamp(28px, 3.5vw, 48px);
   font-weight: 600;
   font-family: 'Urbanist', sans-serif;
-  line-height: 150%;
+  line-height: 110%;
 }
 
 .h2{
   @apply text-foreground;
 
-  font-size: clamp(18px, 2.5vw, 30px);
-  font-weight: 400;
+  font-size: clamp(22px, 2.8vw, 32px);
+  font-weight: 500;
 }
+
+.h3 {
+  @apply text-foreground;
+
+  font-size: clamp(16px, 2vw, 20px); 
+  font-weight: 400; 
+  font-family: 'Urbanist', sans-serif;
+  line-height: 120%; 
+}
+
 
 .p {
   @apply text-muted-foreground;
@@ -137,6 +165,10 @@ p,h1,h2,h3{
   @apply border border-[#262626] rounded-lg
 }
 
+.center{
+  @apply flex justify-center items-center
+}
+
 .bg-gradient{
   background: linear-gradient(45deg, #262626 -26.82%, rgba(38, 38, 38, 0.00) 40.46%);
 }
@@ -148,3 +180,22 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
+.stylish_border {
+
+  background: linear-gradient(157.81deg, #A685FA -43.27%, #A685FA -21.24%, #A685FA 12.19%, #A685FA 29.82%, #A685FA 51.94%, #A685FA 90.29%);
+
+}
+
+.bg-cool{
+  background-image: url(./assets/Abstract_Design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.befor_icon::before{
+  content: url(./assets/three_stare_icon.svg);
+  position: absolute;
+  top: -26px;
+  left: 0;
+  background: transparent;
+}

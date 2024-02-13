@@ -9,7 +9,7 @@ const Pricebox = ({ label, price, text }) => {
             <p className='p pb-3'>{label}</p>
             <div className="flex gap-3 items-center">
                 <h2 className="h2">{Number.isInteger(price) ? `$${price}` : price}</h2>
-                {text && <div className="box p-2 bg-[#1A1A1A] p">{text}</div>}
+                {text && <div className="box p-2 soft-bg p">{text}</div>}
             </div>
         </div>
     )
@@ -24,7 +24,7 @@ const Pricing = ({ price, additional_fees, monthly_costs, total_initial_costs, m
                 heading="Comprehensive Pricing Details"
                 description='At Estatein, transparency is key. We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for Seaside Serenity Villa to help you make an informed decision'
             />
-            <div className=' flex-col flex  md:flex-row gap-2 md:gap-4 px-4 py-3 items-start md:items-center border border-[#262626] rounded-md bg-[#1A1A1A]'>
+            <div className=' flex-col flex  md:flex-row gap-2 md:gap-4 px-4 py-3 items-start md:items-center border border-[#262626] rounded-md soft-bg'>
                 <p className='text-lg '>Note</p>
                 <p className='p'>The figures provided above are estimates and may vary depending on the property, location, and individual circumstances.</p>
             </div>

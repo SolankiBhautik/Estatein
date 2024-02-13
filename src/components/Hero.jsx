@@ -2,34 +2,35 @@ import React from 'react'
 import { bilding } from '../assets'
 
 import { Button } from "./ui/button"
+import Heading from './ui/Heading'
+
+import { NavLink } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className="min-h-screen bg-black text-white pb-12">
-      <div className="container mx-auto px-4 lg:px-8">
+    <section>
+      <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pb-12">
           <div className=' pt-12'>
-            <h1 className="text-6xl font-bold mb-6">Discover Your Dream Property with Estatein</h1>
-            <p className="text-lg mb-6">
-              Your journey to finding the perfect property begins here. Explore our listings to find the home that
-              matches your dreams.
-            </p>
+            <Heading
+              heading="Discover Your Dream Property with Estatein"
+              description="Your journey to finding the perfect property begins here. Explore our listings to find the home that
+              matches your dreams."
+            />
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded">Learn More</Button>
-              <Button className="bg-transparent hover:bg-purple-700 text-white py-2 px-4 border border-purple-600 rounded">
-                Browse Properties
-              </Button>
+              <NavLink to="/services" ><Button className="w-full">Learn More</Button></NavLink>
+              <NavLink to="/properties" ><Button variant="outline" className="w-full">Browse Properties</Button></NavLink>
             </div>
             <div className="grid grid-cols-3 gap-4">
-              <div className="bg-gray-800 p-4 rounded">
+              <div className="box p-4 soft-bg">
                 <p className="text-2xl font-bold">200+</p>
                 <p>Happy Customers</p>
               </div>
-              <div className="bg-gray-800 p-4 rounded">
+              <div className="box p-4 soft-bg">
                 <p className="text-2xl font-bold">10k+</p>
                 <p>Properties For Clients</p>
               </div>
-              <div className="bg-gray-800 p-4 rounded">
+              <div className="box p-4 soft-bg">
                 <p className="text-2xl font-bold">16+</p>
                 <p>Years of Experience</p>
               </div>
@@ -50,37 +51,37 @@ const Hero = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="bg-gray-900 p-4 rounded flex items-center">
+          <div className="box p-4 soft-bg flex bg-cool items-center">
             <HomeIcon className="text-purple-600 mr-4" />
             <div>
-              <p className="font-bold">Find Your Dream Home</p>
-              <p className="text-gray-400">Explore our listings</p>
+              <p className="h3 !font-bold">Find Your Dream Home</p>
+              <p className="p">Explore our listings</p>
             </div>
           </div>
-          <div className="bg-gray-900 p-4 rounded flex items-center">
+          <div className="box p-4 soft-bg flex bg-cool items-center">
             <KeyIcon className="text-purple-600 mr-4" />
             <div>
-              <p className="font-bold">Unlock Property Value</p>
-              <p className="text-gray-400">Get the best deals</p>
+              <p className="h3 !font-bold">Unlock Property Value</p>
+              <p className="p">Get the best deals</p>
             </div>
           </div>
-          <div className="bg-gray-900 p-4 rounded flex items-center">
+          <div className="box p-4 soft-bg flex bg-cool items-center">
             <BuildingIcon className="text-purple-600 mr-4" />
             <div>
-              <p className="font-bold">Effortless Property Management</p>
-              <p className="text-gray-400">We handle everything</p>
+              <p className="h3 !font-bold">Effortless Property Management</p>
+              <p className="p">We handle everything</p>
             </div>
           </div>
-          <div className="bg-gray-900 p-4 rounded flex items-center">
+          <div className="box p-4 soft-bg flex bg-cool items-center">
             <BarChartIcon className="text-purple-600 mr-4" />
             <div>
-              <p className="font-bold">Smart Investments, Informed Decisions</p>
-              <p className="text-gray-400">Maximize your ROI</p>
+              <p className="h3 !font-bold">Smart Investments, Informed Decisions</p>
+              <p className="p">Maximize your ROI</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -5,18 +5,18 @@ import { Link } from "react-router-dom"
 
 export default function Footer() {
     return (
-        <div className="bg-black">
+        <section className="soft-bg">
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row justify-between">
                     <div className="flex flex-col space-y-4 mb-10 lg:mb-0">
                         <div className="flex items-center space-x-2">
                             <FlagIcon className="h-8 w-8 text-purple-600" />
-                            <span className="text-white text-2xl font-bold">Estatein</span>
+                            <span className="h2">Estatein</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <MailIcon className="text-gray-400" />
                             <Input
-                                className="bg-[#333333] text-white placeholder-gray-400"
+                                className="bg-black"
                                 placeholder="Enter Your Email"
                                 type="email"
                             />
@@ -27,74 +27,74 @@ export default function Footer() {
                     </div>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                         <div className="flex flex-col space-y-2">
-                            <span className="text-white font-semibold text-lg">Home</span>
-                            <Link className="text-gray-400" to="/">
+                            <span className="h2">Home</span>
+                            <Link className="p " to="/">
                                 Hero Section
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p " to="/">
                                 Features
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p " to="/">
                                 Properties
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p " to="/">
                                 Testimonials
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p " to="/">
                                 FAQ's
                             </Link>
                         </div>
                         <div className="flex flex-col space-y-2">
-                            <span className="text-white font-semibold">About Us</span>
-                            <Link className="text-gray-400" to="/">
+                            <span className="h2">About Us</span>
+                            <Link className="p" to="/">
                                 Our Story
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Our Works
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 How It Works
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Our Team
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Our Clients
                             </Link>
                         </div>
                         <div className="flex flex-col space-y-2">
-                            <span className="text-white font-semibold">Properties</span>
-                            <Link className="text-gray-400" to="/">
+                            <span className="h2">Properties</span>
+                            <Link className="p" to="/">
                                 Portfolio
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Categories
                             </Link>
                         </div>
                         <div className="flex flex-col space-y-2">
-                            <span className="text-white font-semibold">Services</span>
-                            <Link className="text-gray-400" to="/">
+                            <span className="h2">Services</span>
+                            <Link className="p" to="/">
                                 Valuation Mastery
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Strategic Marketing
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Negotiation Wizardry
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Closing Success
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Property Management
                             </Link>
                         </div>
                         <div className="flex flex-col space-y-2">
-                            <span className="text-white font-semibold">Contact Us</span>
-                            <Link className="text-gray-400" to="/">
+                            <span className="h2">Contact Us</span>
+                            <Link className="p" to="/">
                                 Contact Form
                             </Link>
-                            <Link className="text-gray-400" to="/">
+                            <Link className="p" to="/">
                                 Our Offices
                             </Link>
                         </div>
@@ -112,7 +112,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

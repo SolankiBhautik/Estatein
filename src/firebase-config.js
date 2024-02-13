@@ -1,28 +1,17 @@
-import { initializeApp } from "firebase/app";
-import { getFirestore, addDoc, collection } from "firebase/firestore";
-// import data from './data.json'
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC2zYa3dyDBG2PnG7zWop6KkjoZYs0rl9Y",
-  authDomain: "estatein-fake.firebaseapp.com",
-  projectId: "estatein-fake",
-  storageBucket: "estatein-fake.appspot.com",
-  messagingSenderId: "536187012252",
-  appId: "1:536187012252:web:a79f674d58503911971959",
-  measurementId: "G-QR37GNG217",
+  apiKey: import.meta.env.VITE_REACT_APP_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_REACT_APP_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
-
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-
-// data.map(item => {
-//   addDoc(collection(db, "properties"), item)
-// })
-
-export {
-    app,
-    db
-}
-
+export { app, db };
