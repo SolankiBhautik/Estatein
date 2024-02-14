@@ -1,6 +1,6 @@
 import logo from "./Logo.svg";
 import bilding from "./Image 3.png";
-import closeicon from "./icon.svg";
+import closeicon from "./iconsss.svg";
 import bildingsvg from "./bilding.svg";
 import bad from "./BACKGROUND_2.svg";
 import showere from "./BACKGROUND_2 (1).svg";
