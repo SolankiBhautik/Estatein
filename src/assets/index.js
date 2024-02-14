@@ -1,5 +1,5 @@
 import logo from "./Logo.svg";
-import bilding from "./image (3).png";
+import bilding from "./Image 3.png";
 import closeicon from "./icon.svg";
 import bildingsvg from "./bilding.svg";
 import bad from "./BACKGROUND_2.svg";
