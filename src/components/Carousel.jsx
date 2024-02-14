@@ -27,7 +27,7 @@ const Carousel = ({ title, discription, buttonText, card, collectionName, height
                 const count = snapshot.data().count
                 setDocumentCount(count)
             } catch (error) {
-                console.log(" error while counting ", card, error)
+                console.log(" error while counting ",  error)
             }
         }
         getcount()
