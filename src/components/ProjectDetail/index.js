@@ -1,12 +1,12 @@
 import Heading from './Heading';
-import ImageCarosal from './ImageCarosal';
+import ImageCarousel from './ImageCarousel';
 import Detail from './Detail';
 import Form from './Form';
 import Pricing from './Pricing'
 
 export {
     Heading,
-    ImageCarosal,
+    ImageCarousel,
     Detail,
     Form,
     Pricing,

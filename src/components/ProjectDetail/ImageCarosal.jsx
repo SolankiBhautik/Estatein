@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import { leftarrow, rightarrow } from '../../assets'
 
-const ImageCarosal = ({ images }) => {
+const ImageCarousel = ({ images }) => {
 
     const [active, setActive] = useState(0)
 
@@ -59,4 +59,4 @@ const ImageCarosal = ({ images }) => {
     )
 }
 
-export default ImageCarosal
+export default ImageCarousel

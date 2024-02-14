@@ -13,7 +13,7 @@ import Heading from './ui/Heading';
 
 
 
-const Carosal = ({ title, discription, buttonText, card, collectionName, height }) => {
+const Carousel = ({ title, discription, buttonText, card, collectionName, height }) => {
     const [activecard, setactivecard] = useState(0)
 
     const [documentCount, setDocumentCount] = useState(0);
@@ -87,4 +87,4 @@ const Carosal = ({ title, discription, buttonText, card, collectionName, height 
     )
 }
 
-export default Carosal
+export default Carousel

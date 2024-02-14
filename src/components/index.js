@@ -2,7 +2,7 @@ import Navbar from './Navbar.jsx'
 import Hero from './Hero.jsx'
 import FeaturedProperties from './FeaturedProperties.jsx'
 import Icons from './Icons.jsx'
-import Carosal from './Carosal.jsx'
+import Carousel from './Carousel.jsx'
 import Tastimonial from './Tastimonial.jsx'
 import FAQ from './FAQ.jsx'
 import CTA from './CTA.jsx'
@@ -13,7 +13,7 @@ export {
     Hero,
     FeaturedProperties,
     Icons,
-    Carosal,
+    Carousel,
     Tastimonial,
     FAQ,
     CTA,

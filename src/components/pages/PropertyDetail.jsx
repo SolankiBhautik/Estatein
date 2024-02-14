@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 
 import { Navbar, CTA, Footer } from '..'
-import { Heading, ImageCarosal, Detail, Form, Pricing } from '../ProjectDetail'
+import { Heading, ImageCarousel, Detail, Form, Pricing } from '../ProjectDetail'
 
 
 import { useParams } from 'react-router-dom'
@@ -42,7 +42,7 @@ const PropertyDetail = () => {
                     location={data.location}
                     price={data.price}
                 />
-                <ImageCarosal
+                <ImageCarousel
                     images={data.images}
                 />
                 <Detail
