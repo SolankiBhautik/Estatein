@@ -9,7 +9,7 @@ import rightarrow from "./arrow right.svg";
 import stareicon from "./stare.svg";
 import handebilding from "./bilding with hande.png";
 import groupicon from "./group_Icon.svg";
-import Stareicon from "./Stare_icon.svg";
+import Stareicon from "./Stare_Icon.svg";
 import educationicon from "./education_icon.svg";
 import tweetericon from "./tweetericon.svg";
 import pepal1 from "./pepal1.png";
