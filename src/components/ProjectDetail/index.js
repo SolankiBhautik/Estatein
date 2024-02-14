@@ -1,5 +1,5 @@
 import Heading from './Heading';
-import ImageCarousel from './ImageCarousel';
+import ImageCarousel from './ImageCarosal';
 import Detail from './Detail';
 import Form from './Form';
 import Pricing from './Pricing'
