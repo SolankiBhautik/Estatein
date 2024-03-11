@@ -23,7 +23,7 @@ const PropertyDetail = () => {
                 const docSnapshot = await getDoc(docRef)
                 setData(docSnapshot.data())
             } catch (error) {
-                console.log("error while getting data", error)
+                console.log("error while getting data: ", error)
             }
         }
 

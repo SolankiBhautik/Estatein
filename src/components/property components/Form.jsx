@@ -27,6 +27,7 @@ const Form = () => {
     return (
         <div>
             <Heading
+                className="mx-12 md:mx-6 mt-12"
                 heading="Let's Make it Happen"
                 description="Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together."
             />

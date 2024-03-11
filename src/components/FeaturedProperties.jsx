@@ -17,7 +17,7 @@ export default function FeaturedProperties({activecard, cardcount}) {
         const getdata = async () => {
             try {
                 const doc = await getDocs(colref)
-                const fdata = doc.docs.map(doc => ({ ...doc.data(), id: doc.id }))
+                const fdata = doc.docs.map(doc => doc.data())
                 setData(fdata)
             } catch (error) {
                 console.log(error)

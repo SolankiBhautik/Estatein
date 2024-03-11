@@ -1,29 +1,72 @@
-
-import { Button } from "./ui/button"
-import { NavLink } from "react-router-dom"
-import { useEffect, useState } from "react"
+import { Button } from "./ui/button";
+import { NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function Component() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <nav className="soft-bg py-4">
-            <div className=" flex items-center justify-between ">
+            <div className="flex items-center justify-between">
+                {/* Logo and Brand Name */}
                 <div className="flex items-center space-x-2">
                     <NavLink to="/">
                         <FlagIcon className="h-8 w-8 text-purple-600" />
                         <span className="text-xl font-bold text-white">Estatein</span>
                     </NavLink>
                 </div>
-                <div onClick={() => setIsMenuOpen(true)} className={`menubar ${isMenuOpen ?  "translate-x-[0%]" : "translate-x-[96%]"} md:!translate-x-[0%] transition-transform duration-300`}>
-                    <div className=" menuitems flex gap-2">
-                        <NavLink to="/"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Home</Button></NavLink>
-                        <NavLink to="/aboutus"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">About Us</Button></NavLink>
-                        <NavLink to="/properties"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Properties</Button></NavLink>
-                        <NavLink to="/services"><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Services</Button></NavLink>
+
+                {/* Navigation Menu */}
+                <div
+                    onClick={() => setIsMenuOpen(true)}
+                    className={`menubar ${isMenuOpen ? "translate-x-[0%]" : "translate-x-[96%]"
+                        } md:!translate-x-[0%] transition-transform duration-300`}
+                >
+                    <div className="menuitems flex gap-2">
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? "ring-2 ring-purple-500 rounded-md" : "")}
+                        >
+                            <Button onClick={() => setIsMenuOpen(false)} className="hard-bg text-white">
+                                Home
+                            </Button>
+                        </NavLink>
+                        <NavLink
+                            to="/aboutus"
+                            className={({ isActive }) => (isActive ? "ring-2 ring-purple-500 rounded-md" : "")}
+                        >
+                            <Button onClick={() => setIsMenuOpen(false)} className="hard-bg text-white">
+                                About Us
+                            </Button>
+                        </NavLink>
+                        <NavLink
+                            to="/properties"
+                            className={({ isActive }) => (isActive ? "ring-2 ring-purple-500 rounded-md" : "")}
+                        >
+                            <Button onClick={() => setIsMenuOpen(false)} className="hard-bg text-white">
+                                Properties
+                            </Button>
+                        </NavLink>
+                        <NavLink
+                            to="/services"
+                            className={({ isActive }) => (isActive ? "ring-2 ring-purple-500 rounded-md" : "")}
+                        >
+                            <Button onClick={() => setIsMenuOpen(false)} className="hard-bg text-white">
+                                Services
+                            </Button>
+                        </NavLink>
+                        <NavLink
+                            to="/contactus"
+                            className={({ isActive }) => (isActive ? "ring-2 ring-purple-500 rounded-md ml-14 " : "ml-14")}
+                        >
+                            <Button onClick={() => setIsMenuOpen(false)} className="hard-bg text-white">
+                                Contact Us
+                            </Button>
+                        </NavLink>
                     </div>
-                    <NavLink to="/contactus" className={`ml-14`}><Button onClick={() => setIsMenuOpen(false)} className="bg-black text-white">Contact Us</Button></NavLink>
                 </div>
+
+                {/* Mobile Menu Button */}
                 <div className="md:hidden z-20 fixed top-4 right-4 flex items-center justify-center">
                     <Button className="bg-black text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         <MenuIcon className="icon h-6 w-6 text-white focus:text-black" />
@@ -31,8 +74,9 @@ export default function Component() {
                 </div>
             </div>
         </nav>
-    )
+    );
 }
+
 
 function MenuIcon(props) {
     return (
